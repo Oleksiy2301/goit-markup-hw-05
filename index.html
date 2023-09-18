@@ -687,7 +687,7 @@
 
           <div class="review-form-checkbox-wrapper">
             <input 
-            class="visually-hidden click-window" 
+            class="visually-hidden review-form-checkbox" 
             type="checkbox"
             id="user-privacy"
             name="user-privacy"
@@ -696,14 +696,14 @@
             >
             <label 
             class="review-form-checkbox-label" 
-            for="user-privacy">I accept the terms and conditions of the
-            <span class="review-form-own-checkbox"
+            for="user-privacy"><span class="review-form-own-checkbox"
             ><svg 
             class="icon-field-click" 
             width="10"
             height="8">
-              <use href="./images/icons.svg#icon-click"></use>
-            </svg></span> <a class="review-form-privacy-link" href="">Privacy Policy</a>
+            aria-label="clickmark icon"
+              <use href="./images/icons.svg#icon-checkmark"></use>
+            </svg></span> I accept the terms and conditions of the <a class="review-form-privacy-link" href="">Privacy Policy</a>
             </label>
           </div>
           <button class="review-form-submit" type="submit">Send</button>

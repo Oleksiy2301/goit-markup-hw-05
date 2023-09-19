@@ -546,7 +546,7 @@ body {
 }
 
 .footer-review-form-input::placeholder {
-    color #ffffff;
+    color: #ffffff;
 }
 
 .footer-subscrible-button {

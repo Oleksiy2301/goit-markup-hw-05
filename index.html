@@ -584,18 +584,24 @@
           <p class="footer-subscrible-container-title"
           >Subscribe</p>
           <form class="footer-review-form">
-            <label for="" class="footer-review-form-label">
+            <label 
+            for="footer-user-email" class="footer-review-form-label"
+            >
               <input 
               class="footer-review-form-input"
               type="email"
-              placeholder="E-mail" >
+              id="footer-user-email"
+              placeholder="E-mail"
+              name="footer-user-email" 
+              >
             </label>
             <button 
             class="footer-subscrible-button"
             type="submit">Subscribe
           <svg class="footer-subscrible-button-icon"
           width="24"
-          height="24">
+          height="24"
+          aria-label="icon plane">
             <use href="./images/icons.svg#icon-plane"></use>
           </svg></button>
           </form>
